@@ -8,5 +8,6 @@ export default defineConfig({
   theme: {
     extend: {},
   },
-  integrations: [tailwind()]
+  integrations: [tailwind()],
+  output: 'server'
 });
